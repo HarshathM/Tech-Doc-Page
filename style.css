@@ -2,3 +2,6 @@
 code{
     white-space: pre;
 }
+h2{
+    text-transform:capitalize;
+}
