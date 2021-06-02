@@ -18,6 +18,10 @@ h2{
 }
 #main-head{
     position: fixed;
+    top: 0px;
+}
+#navbar{
+    position: fixed;
 }
 #all-nav-links{
     display:flex;
@@ -50,8 +54,9 @@ h2{
     }
     #main-doc{
         position:absolute;
-        height: 50%;
-        top:350px;
+        height: 49.9%;
+        top:310px;
         left: 5px;
+        border-style: double none none double;
     }
 }
