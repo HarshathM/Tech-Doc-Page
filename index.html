@@ -64,12 +64,14 @@
             <section id="lists" class="main-section">
                 <header><h2>lists</h2></header>
                 <p>Python knows a number of compound data types, used to group together other values. The most versatile is the list, which can be written as a list of comma-separated values (items) between square brackets. Lists might contain items of different types, but usually the items all have the same type.</p>
-                <code>>>> squares = [1, 4, 9, 16, 25]
+                <code>
+                    >>> squares = [1, 4, 9, 16, 25]
                     >>> squares
                     [1, 4, 9, 16, 25]
                 </code>
                 <p>Like strings (and all other built-in sequence types), lists can be indexed and sliced:</p>
-                <code>>>> squares[0]  # indexing returns the item
+                <code>
+                    >>> squares[0]  # indexing returns the item
                     1
                     >>> squares[-1]
                     25
@@ -80,7 +82,8 @@
             <section id="if_statements" class="main-section">
                 <header><h2>if statements</h2></header> 
                 <p>Perhaps the most well-known statement type is the if statement.</p>
-                <code>>>> x = int(input("Please enter an integer: "))
+                <code>
+                    >>> x = int(input("Please enter an integer: "))
                     Please enter an integer: 42
                     >>> if x < 0:
                     ...     x = 0
@@ -105,7 +108,8 @@
             <section id="for_statements" class="main-section">
                 <header><h2>for statements</h2></header>
                 <p>The for statement in Python differs a bit from what you may be used to in C or Pascal. Rather than always iterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to define both the iteration step and halting condition (as C), Python’s for statement iterates over the items of any sequence (a list or a string), in the order that they appear in the sequence. For example (no pun intended):</p>
-                <code>>>> # Measure some strings:
+                <code>
+                    >>> # Measure some strings:
                     ... words = ['cat', 'window', 'defenestrate']
                     >>> for w in words:
                     ...     print(w, len(w))
