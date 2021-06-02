@@ -4,6 +4,7 @@ code{
 }
 h2{
     text-transform:capitalize;
+    font-family: 'Permanent Marker', cursive;
 }
 #main-head{
     position: sticky;
@@ -12,13 +13,14 @@ h2{
 #main-doc{
     overflow-x: hidden;
     position: absolute;
-    left: 250px;
+    left: 260px;
     border-style: none none none double;
     padding-left: 10px;
 }
 #main-head{
     position: fixed;
     top: 0px;
+    font-family: 'Bree Serif', serif;
 }
 #navbar{
     position: fixed;
@@ -28,7 +30,7 @@ h2{
     flex-direction: column;
     position: fixed;
     height: 100%;
-    width: 200px;
+    width: 240px;
     background-color: white;
     top: 60px;
 }
@@ -37,6 +39,7 @@ h2{
     text-align: center;
     padding: 10px 0;
     text-decoration-line:none ;
+    font-family: 'Bree Serif', serif;
 }
 .nav-link:hover{
     background-color: yellow;
