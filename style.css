@@ -8,7 +8,7 @@ h2{
 }
 #main-head{
     position: sticky;
-    top: 0px;
+    top: 0px; 
 }
 #main-doc{
     overflow-x: hidden;
